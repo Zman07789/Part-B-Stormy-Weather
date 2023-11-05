@@ -1,0 +1,57 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-image: url('/Users/zackpaulson/Desktop/SchoolFolders/SchoolFall2023/Part B Stormy Weather/assets/stormy-weather-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: left;
+    position: relative; 
+}
+
+header h1 {
+    font-size: 100px;
+    color: white; 
+}
+
+.textbox {
+    color: white;
+    font-size: 35px;
+    width: 20%;
+    position: absolute;
+    padding: 30px;
+    left: 125px;
+    top: 400px;
+    height: 45%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 2px solid white;
+    outline: 5px solid white;
+}
+
+/* Add styles for the icons */
+.icons {
+    position: absolute; 
+    right: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+
+   
+    font-size: 80px;
+    color: grey; 
+    margin-left: 30px; 
+    transition: color 0.3s; 
+}
+
+.icons i:hover {
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
